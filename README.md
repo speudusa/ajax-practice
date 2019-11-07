@@ -11,10 +11,13 @@ $ cd api && npm start
 - run using the VSCode LiveServer extension
   - right click `client/index.html` and select "Open with LiveServer"
 - alternatively serve using Python (version 3.X required)
-  - enter the command below into your Terminal
+  - enter the commands below into your Terminal
+  - the first will bring you back to the root directory (since the API command above put you in the `api/` directory)
+  - the second command will start a static HTTP server in Python to serve the client files
   - then open your browser to `http://localhost:8000` to view
 
 ```sh
+$ cd ../
 $ python -m http.server -d client/
 ```
 
