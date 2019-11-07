@@ -1,13 +1,13 @@
 {
-  "name": "api",
-  "version": "1.0.0",
+  "name": "ajax-api",
+  "version": "0.0.1",
   "description": "simple API for practicing client-side AJAX",
   "main": "index.js",
   "scripts": {
     "start": "nodemon ."
   },
-  "author": "",
-  "license": "ISC",
+  "author": "the-vampiire",
+  "license": "GPL-3.0",
   "dependencies": {
     "express": "^4.17.1"
   },
